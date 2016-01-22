@@ -13,3 +13,5 @@ git config --global user.email you@example.com	Set your e-mail
 
 Error	fix
 Failed REFS http://	pull first, then push
+<<<<< txt ==== txt >>>>	merge conflict when pulling: does not know which text to use. Edit, commit and push to solve
+Accidental file deletion	git checkout HEAD~1 #Go back 1 commit in time, can be used to repair a deleted file
