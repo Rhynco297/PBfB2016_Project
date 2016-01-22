@@ -11,5 +11,6 @@ git config --global user.name "Your Name"	Set your name
 git config --global user.email you@example.com	Set your e-mail
 
 
-Error	fix
-Failed REFS http://	pull first, then push
+Other command
+
+git checkout HEAD~1	to go one commitment back
