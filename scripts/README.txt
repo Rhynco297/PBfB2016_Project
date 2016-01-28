@@ -6,3 +6,11 @@ Step 1: Change working directory to folder with original csv file in it
 Step 2: Execute MVB.sh -> This will automatically also run Reorganize.py and create a reorganized csv file
 Step 3: Execute Graphs.R (By typing: RScript Graphs.R)
 Step 4: The graph is automatically saved in the working directory
+
+>> CALCULATING WEEK VALUES <<
+Shows normal worked hours and overtime for specified week without creating a graph
+
+Step 1: As above
+Step 2: As above
+Step 3: Execute week.sh
+Step 4: Read values from the screen
