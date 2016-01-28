@@ -3,7 +3,7 @@ import re #Allow using regular expressions
 
 
 Data = raw_input("Please specify the week again (e.g. 201549): ")
-Data = Data + ".csv"
+Data = Data + .csv
 
 
 #Open the right file (ADD OPTION TO SPECIFY WEEK)

@@ -1,5 +1,5 @@
 #Set working directory & read in datafile
-setwd("~/GitHubs/PBfB2016_Project/Files")
+#No need to set working directory, because it is already executed in the right one
 
 #Read in the files
 Hours <- read.csv(file="Re_Hours.csv",head=TRUE,sep="\t")

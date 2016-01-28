@@ -13,4 +13,4 @@ grep $WEEK ./Re_Hours.csv > $WEEK.csv
 
 echo "File $WEEK.csv created"
 
-calc.py
+#calc.py
