@@ -1,4 +1,5 @@
 #! /usr/bin/python
+import re #Allow use of regular expressions
 
 #Define formula for creating a random string of letters as Surname
 import string
@@ -49,12 +50,13 @@ Work2.write('Personal Number\tProjectnr.\tOmschrijving\tWeek\tJob\t0\tNormale ur
 
 for Line in Work:
 	if count > 0: #Skip the header
-	SearchStr = '^(\d+)\t(.+)$' #Finds each full line once and captures number, plus everything else in one
-	Result = re.search(SearchStr, Line)
-	Number2 = str(Result.group(1))
-	Other = str(Result.group(2))
-	FakeNo = str(Employees[Number2])
-	Work2.write('%s\t%s' % (FakeNo, Other) #Append to Work2.txt and create incognito file
+		SearchStr = '^(\d+)\t(.+)$' #Finds each full line once and captures number, plus everything else in one
+		Result = re.search(SearchStr, Line)
+		Number2 = str(Result.group(1))
+		Other = str(Result.group(2))
+		FakeNo = str(Employees[Number2])
+		Work2.write('%s\t%s' % (FakeNo, Other)) #Append to Work2.txt and create incognito file
+	count = count + 1
 
 print "New file Work2.txt created..."
 
