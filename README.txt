@@ -35,5 +35,6 @@ Step 4: Type in the desired week and read values from the screen
 >>> TESTING THE ENCRYPTION SCRIPT <<
 
 Step 1: Change working directory to the 'Encrypt example' folder
-Step 2: Run: ../scripts/Encrypt.sh
-Step 3: You are now left with an encrypted version of Name.txt and Work.txt (you can recognize them by the 2 in the name)
+Step 2: Run: ../scripts/MVB.sh
+Step 3: Run: ../scripts/Encrypt.sh
+Step 4: You are now left with an encrypted version of Name.txt and Work.txt (you can recognize them by the 2 in the name)
